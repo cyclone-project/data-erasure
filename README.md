@@ -10,3 +10,6 @@ The kickstart file permits to create a very minimalistic CentOS 6.7 LiveCD that 
 - cloud-init package is installed, which create a "cloud-user" account 
 - the "cloud-user" account can be used with the end user electronic key to connect using ssh
 - the "cloud-user" account is a sudoer without password
+
+
+End users are invited to modify the kickstart file for their needs.
