@@ -8,5 +8,5 @@ This contains necessary files to automate LiveCD creation: a bash script file an
 The kickstart file permits to create a very minimalistic CentOS 6.7 LiveCD that can be used on a cloud:
 - root access is not allowed
 - cloud-init package is installed, which create a "cloud-user" account 
-- the "cloud-user" account can be used with the end user electronic key
+- the "cloud-user" account can be used with the end user electronic key to connect using ssh
 - the "cloud-user" account is a sudoer without password
