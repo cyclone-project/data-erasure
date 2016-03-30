@@ -29,6 +29,17 @@
 #
 #  Requirements: centos67-mini-cloud.ks
 #
+#  Customization:
+#
+# -1- The created Live CD contains the following packages
+#   Please see packages section
+#
+# -2- The created Live CD is configured as follow:
+#   - Root access denied
+#   - cloud-init installed (see packages section) and started
+#   - sshd       installed (see packages section) and started
+#   - a non privileged user "cloud-user" (created by cloud-init) is in sudoers without password
+#   - ssh connection via "cloud-user" using ssh keys
 # 
 # Changelog:
 #
